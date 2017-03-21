@@ -1,2 +1,3 @@
-01 - > La definition d'interpolation dans angular2
-02 -> toute directive sur angular 2 c'est noté par un prefix "*"?
+01 -> La definition d'interpolation dans angular2?
+02 -> Toute directive sur angular 2 c'est noté par un prefix "*"?
+03 -> Angular implémente une correspondance des noms des attributs html dans ce core, exemple l'attribut [title], [src], cela a été fait pour tous attribut?
