@@ -3,4 +3,4 @@
 03 -> Angular implémente une correspondance des noms des attributs html dans ce core, exemple l'attribut [title], [src], cela a été fait pour tous attribut?
 04 -> Biding pour attribut [], pour événement () et la raison de [(ngModel)]?
 05 -> Le fait d'ajouter la fonction "calculateDiscount" dans IProduct pose de problème dans compiltation de l'affectation d'un product, faut il déclarer comme un champ ?
-
+06 -> Quel est le lien de parler de CommonJS vs	AMD avec Angular?
