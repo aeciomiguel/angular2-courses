@@ -1,12 +1,11 @@
 <div class="crop" 
-    [style.width.px]="starWidth"
     [title]="rating"
     (click)='onClick()'>
     <div style="width: 86px">
-        <span class="glyphicon glyphicon-star"></span>
-        <span class="glyphicon glyphicon-star"></span>
-        <span class="glyphicon glyphicon-star"></span>
-        <span class="glyphicon glyphicon-star"></span>
-        <span class="glyphicon glyphicon-star"></span>
+        
+        <span *ngFor='let i of [1,2,3,4,5]' 
+            class="glyphicon glyphicon-star"
+            [style.color]="i > getRoudedRating() ? '#DDD' : '#333'"
+            ></span>
     </div>
 </div>

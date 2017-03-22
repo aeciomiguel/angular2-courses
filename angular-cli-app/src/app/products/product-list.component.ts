@@ -71,11 +71,19 @@ export class ProductListComponent implements OnInit  {
         this.showImage = !this.showImage;
     }
 
-    onRatingClicked(message: string): void {
-        this.pageTitle = 'Product List: ' + message;
+    onRatingClicked(rating: Map<string,number>): void {
+        let key: string = rating.keys().next().value;
+        let value: number = rating.get(key);
+        console.log('toto:' + key  + ', ' + value);
+        this.pageTitle = 'Product rating (' +  key +') => ' + value ;
+        this.message 
     }
 
     ngOnInit(): void {
         console.log('In OnInit');
+    }
+
+    onNotify(message: string): void {
+       console.log(message); 
     }
 }
